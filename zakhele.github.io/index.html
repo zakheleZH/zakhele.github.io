@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>file zakhele</title>
+    <link rel="stylesheet" href="css/offline.css">
+    <script type="text/JavaScript" src="js/main.js"> </script>
+</head>
+<body>
+    <center>
+        <h1>Online and Offline Currency Convector</h1>  
+<div id="powerd"><a href="https://free.currencyconverterapi.com/" target="_blank" id="tm_add146" class="tm_add146">Currency Convertor API</a></div>
+<div id="demo-rate-convert"></div>
+<script>
+    var apiTargetHtmlObj = document.getElementById("demo-rate-convert");
+    var tmScript = document.createElement("script");
+    tmScript.src = "https://www.transfermate.com/en/exchange_rates_api.asp";
+    document.getElementsByTagName("head")[0].appendChild(tmScript);
+ //loading the Currency API
+    var currency_country = '`https://free.currencyconverterapi.com/api/v3/convert?q=${this._cuList[0]}_${this._cuList[1]},${this._cuList[0]}_${this._cuList[1]}&compact=ultra`';
+</script>
+
+</body>
+</center>
+</html>
